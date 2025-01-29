@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HEXTEK</title>
+    <link rel="stylesheet" href="Home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Delius&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Delius&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Kite+One&display=swap"
+        rel="stylesheet">
+
+    <script src="Home.js" defer></script>
+</head>
+
+<body>
+
+    <header id="cabeca">
+        <img src="IMGS/Simble.png" alt="">
+        <h1>HEXTEK</h1>
+
+        <div class="cabecalho">
+
+            <div class="pesq">
+                <input type="text" placeholder="O que deseja ouvir?" id="pesq">
+            </div>
+            <div class="botao">
+                <input type="button" onclick="botao()" id="favoritos">
+            </div>
+        </div>
+    </header>
+
+    <div class="tela">
+
+        <div class="musicas">
+            <section id="secao">
+                <h1>BIBLIOTECA</h1>
+                <hr>
+                <button id="playlist">CRIAR NOVA PLAYLIST</button>
+                <button id="suas">SUAS PLAYLISTS</button>
+            </section>
+
+            <section id="player">
+                <h1>Tocando</h1>
+                <hr>
+
+                <audio controls>
+                    <source src="">
+                </audio>
+            </section>
+        </div>
+
+        <section id="main">
+
+            <div class="musicas">
+
+                <h1>ROCK</h1>
+                <hr>
+                <div class="rock">
+                    <div class="imageContainer">
+                        <img src="IMGS/Linkin Park.jpg" alt="Linkin Park">
+                        <p>Linkin Park</p>
+                    </div>
+                    <div class="imageContainer">
+                        <img src="IMGS/Metallica.jpg" alt="Metallica">
+                        <p>Metallica</p>
+                    </div class="imageContainer">
+                    <div class="imageContainer">
+                        <img src="IMGS/Nirvana.jpg" alt="Nirvana" id="Nirvana">
+                        <p>Nirvana</p>
+                    </div>
+                    <div class="imageContainer">
+                        <img src="IMGS/Aerosmith.jpg" alt="Aerosmith">
+                        <p>Aerosmith</p>
+                    </div>
+                    <div class="imageContainer">
+                        <img src="IMGS/Queen.jpg" alt="Queen">
+                        <p>Queen</p>
+                    </div>
+                    <div class="imageContainer">
+                        <img src="IMGS/Groillaz.jpg" alt="Gorillaz">
+                        <p>Gorillaz</p>
+                    </div>
+                    <div class="imageContainer">
+                        <img src="IMGS/Weezer.jpg" alt="Weezer">
+                        <p>Weezer</p>
+                    </div>
+                </div>
+                <h1>HIP HOP</h1>
+                <hr>
+                <div class="hiphop">
+                    <div class="imageContainer">
+                        <img src="IMGS/YE.jpg" alt="Kanye West">
+                        <p>Yeezus</p>
+                    </div>
+                    <div class="imageContainer">
+                        <img src="IMGS/Kendrick.jpg" alt="Manoel Gomes">
+                        <p>Kendrick</p>
+                    </div>
+                    <div class="imageContainer">
+                        <img src="IMGS/Tyler.jpg" alt="Tyler, the creator">
+                        <p>Tyler</p>
+                    </div>
+                    <div class="imageContainer">
+                        <img src="IMGS/Frank.jpg" alt="Frank Ocean">
+                        <p>Frank Ocean</p>
+                    </div>
+                    <div class="imageContainer">
+                        <img src="IMGS/Racionais.jpg" alt="Racionais">
+                        <p>Racionais</p>
+                    </div>
+                    <div class="imageContainer">
+                        <img src="IMGS/Juice.jpg" alt="Juice Wrld">
+                        <p>Juice Wrld</p>
+                    </div>
+                    <div class="imageContainer">
+                        <img src="IMGS/2pac.jpg" alt="2pac">
+                        <p>2pac</p>
+                    </div>
+                </div>
+
+
+                <h1>HIP HOP</h1>
+                <hr>
+                <div class="">
+
+                </div>
+            </div>
+    </div>
+    </section>
+    </div>
+
+</body>
+
+</html>
